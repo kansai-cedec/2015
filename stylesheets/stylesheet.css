@@ -217,6 +217,13 @@ dl p {
   font-style: italic;
 }
 
+p.note {
+  padding-left: 20px;
+  font-size: 14px;
+  margin: -10px 0 15px 0;
+}
+
+
 hr {
   height: 1px;
   margin-bottom: 5px;
