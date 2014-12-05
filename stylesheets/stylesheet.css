@@ -29,6 +29,14 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+h3 {
+  margin: 0;
+  padding-top: 1em;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -268,6 +276,69 @@ div.session .category .NW  { display: inline-block; background-color: rgb(39,130
 div.session .category .BP  { display: inline-block; background-color: rgb(10,191,207); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
 div.session .category .AC  { display: inline-block; background-color: rgb(138,69,150); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
 div.session .category .KN  { display: inline-block; background-color: rgb(223,2,2); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
+
+/* sponsors */
+div.sponsor-logo {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+div.sponsor-logo img {
+  width: 100%;
+  height: auto;
+}
+div.sponsor-logo + div {
+  margin-top: 15px;
+}
+ul.session-sponsors li {
+  width: 300px;
+  text-align: center;
+  vertical-align: top;
+  line-height: 120%;
+  margin-bottom: 56px;
+  margin-right: 56px;
+  padding: 0;
+  list-style-type: none;
+}
+ul.session-sponsors li:first-child {
+  padding-left: 5px;
+}
+ul.session-sponsors div.sponsor-logo {
+  width: 300px;
+}
+ul.catalog-sponsors li {
+  width: 200px;
+  text-align: center;
+  vertical-align: top;
+  line-height: 120%;
+  margin-bottom: 35px;
+  margin-right: 35px;
+  padding: 0;
+}
+ul.catalog-sponsors li:first-child {
+  padding-left: 5px;
+}
+ul.catalog-sponsors div.sponsor-logo {
+  width: 195px;
+  height: 121px;
+}
+ul.logo-sponsors li {
+  width: 100px;
+  text-align: center;
+  vertical-align: top;
+  line-height: 120%;
+  margin-bottom: 40px;
+  margin-right: 28px;
+  font-size: 11px;
+  padding: 0;
+}
+ul.logo-sponsors li:first-child {
+  padding-left: 5px;
+}
+ul.logo-sponsors div.sponsor-logo {
+  width: 100px;
+  height: 88px;
+}
 
 
 hr {
