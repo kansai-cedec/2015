@@ -468,6 +468,16 @@ Full-Width Styles
   background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
+  float: left;
+}
+
+#main{
+  width: 90%;
+  float: left;
+}
+#side {
+  width: 250px;
+  float: right;
 }
 
 #main_content {
@@ -475,8 +485,10 @@ Full-Width Styles
 }
 
 #footer_wrap {
+  clear: both;
   background: #212121;
 }
+
 
 
 
