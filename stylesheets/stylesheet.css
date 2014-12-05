@@ -383,7 +383,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 840px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -474,12 +474,13 @@ Full-Width Styles
 }
 
 #main{
-  width: 90%;
+  width: 80%;
   float: left;
 }
 #side {
-  width: 250px;
+  width: 20%;
   float: right;
+  text-indent: 10px;
 }
 
 #main_content {
