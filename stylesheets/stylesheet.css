@@ -139,13 +139,6 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 p img {
@@ -224,6 +217,59 @@ dl p {
   font-style: italic;
 }
 
+p.note {
+  padding-left: 20px;
+  font-size: 14px;
+  margin: -10px 0 15px 0;
+}
+
+.application_link {
+	 color: #ffffff;
+	font-size: 24px;
+	-webkit-appearance: none;
+	display: block;
+	border: 0;
+	background: #ff9632;
+	box-shadow: inset 0px 0px 1px 0px #a0a1a7;
+	border-radius: 0.35em;
+	width: 70%;
+	padding: 0.75em 1em 0.75em 1em;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+  padding: 10px;
+}
+
+div.session {
+margin-bottom: 1em; font-size: 0.9em; background-color: rgb(220,220,220); border: 1px rgb(200,200,200); border-radius: 0.5em; padding: 1em;
+	}
+
+div.session .title { line-height: 1.25em; padding-bottom: 1em; }
+div.session .invitation {
+	display: inline-block; background-color: rgb(35,191,206); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em;
+	}
+div.session .person { margin-bottom: 1em; border: 1px solid rgb(222,222,222); background-color: rgb(254,254,254); padding:0.0em 1.5em; }
+div.session .person .name { font-weight: bold; border-bottom: 1px solid rgb(200,200,200); }
+div.session .person .section { margin-top: -.5em;  margin-bottom: .5em;  margin-left: 1em; font-size: 0.8em; }
+div.session .person .profile { margin-left: 1.2em; font-size: 0.7em; }
+div.session .summary {margin-bottom: 1em; font-size: 0.9em; background-color: rgb(240,240,240); border: 1px dashed rgb(200,200,200); border-radius: 1em; padding: 1em;}
+
+div.session .category .invitation {
+	display: inline-block; background-color: rgb(35,191,206); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em;
+	}
+
+div.session .category .ENG { display: inline-block; background-color: rgb(245,161,0); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
+div.session .category .VA  { display: inline-block; background-color: rgb(179,198,15); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
+div.session .category .GD  { display: inline-block; background-color: rgb(20,169,139); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
+div.session .category .SND { display: inline-block; background-color: rgb(107,198,0); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
+div.session .category .NW  { display: inline-block; background-color: rgb(39,130,99); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
+div.session .category .BP  { display: inline-block; background-color: rgb(10,191,207); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
+div.session .category .AC  { display: inline-block; background-color: rgb(138,69,150); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
+div.session .category .KN  { display: inline-block; background-color: rgb(223,2,2); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
+
+
 hr {
   height: 1px;
   margin-bottom: 5px;
@@ -285,12 +331,7 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: #231816;
 }
 
 #header_wrap .inner {
