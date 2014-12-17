@@ -278,6 +278,18 @@ div.session .category .AC  { display: inline-block; background-color: rgb(138,69
 div.session .category .KN  { display: inline-block; background-color: rgb(223,2,2); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
 
 /* sponsors */
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.list-inline > li:first-child {
+  padding-left: 0;
+}
 div.sponsor-logo {
   display: table-cell;
   text-align: center;
@@ -296,15 +308,15 @@ ul.session-sponsors li {
   vertical-align: top;
   line-height: 120%;
   margin-bottom: 56px;
-  margin-right: 56px;
+  margin-right: 12px;
   padding: 0;
-  list-style-type: none;
 }
 ul.session-sponsors li:first-child {
   padding-left: 5px;
 }
 ul.session-sponsors div.sponsor-logo {
   width: 300px;
+  height: 370px;
 }
 ul.catalog-sponsors li {
   width: 200px;
@@ -314,14 +326,13 @@ ul.catalog-sponsors li {
   margin-bottom: 35px;
   margin-right: 35px;
   padding: 0;
-  list-style-type: none;
 }
 ul.catalog-sponsors li:first-child {
   padding-left: 5px;
 }
 ul.catalog-sponsors div.sponsor-logo {
   width: 195px;
-  height: 121px;
+  height: 200px;
 }
 ul.logo-sponsors li {
   width: 100px;
@@ -332,7 +343,6 @@ ul.logo-sponsors li {
   margin-right: 28px;
   font-size: 11px;
   padding: 0;
-  list-style-type: none;
 }
 ul.logo-sponsors li:first-child {
   padding-left: 5px;
