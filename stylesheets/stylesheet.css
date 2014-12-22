@@ -318,11 +318,27 @@ ul.session-sponsors div.sponsor-logo {
   width: 300px;
   height: 370px;
 }
+ul.booth-sponsors li {
+  width: 250px;
+  text-align: center;
+  vertical-align: top;
+  line-height: 100%;
+  margin-bottom: 0px;
+  margin-right: 12px;
+  padding: 0;
+}
+ul.booth-sponsors li:first-child {
+  padding-left: 5px;
+}
+ul.booth-sponsors div.sponsor-logo {
+  width: 250px;
+  height: 200px;
+}
 ul.catalog-sponsors li {
   width: 200px;
   text-align: center;
   vertical-align: top;
-  line-height: 120%;
+  line-height: 100%;
   margin-bottom: 35px;
   margin-right: 15px;
   padding: 0;
@@ -332,7 +348,7 @@ ul.catalog-sponsors li:first-child {
 }
 ul.catalog-sponsors div.sponsor-logo {
   width: 200px;
-  height: 200px;
+  height: 140px;
   margin-bottom: 0px;
 }
 ul.logo-sponsors li {
