@@ -333,6 +333,7 @@ ul.catalog-sponsors li:first-child {
 ul.catalog-sponsors div.sponsor-logo {
   width: 200px;
   height: 200px;
+  margin-bottom: 0px;
 }
 ul.logo-sponsors li {
   width: 100px;
