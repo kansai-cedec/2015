@@ -310,6 +310,7 @@ ul.session-sponsors li {
   margin-bottom: 56px;
   margin-right: 12px;
   padding: 0;
+  padding-left: 10px;
 }
 ul.session-sponsors li:first-child {
   padding-left: 5px;
@@ -326,13 +327,14 @@ ul.booth-sponsors li {
   margin-bottom: 0px;
   margin-right: 12px;
   padding: 0;
+  padding-left: 30px;
 }
 ul.booth-sponsors li:first-child {
-  padding-left: 5px;
+  padding-left: 30px;
 }
 ul.booth-sponsors div.sponsor-logo {
   width: 250px;
-  height: 200px;
+  height: 280px;
 }
 ul.catalog-sponsors li {
   width: 200px;
