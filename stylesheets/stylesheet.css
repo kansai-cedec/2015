@@ -278,6 +278,9 @@ div.session .category .invitation {
 div.session .category .student {
 	display: inline-block; background-color: rgb(238,126,100); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em;
 	}
+div.session .category .sponsor {
+	display: inline-block; background-color: rgb(216,202,177); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em;
+	}
 
 div.session .category .ENG { display: inline-block; background-color: rgb(245,161,0); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
 div.session .category .VA  { display: inline-block; background-color: rgb(179,198,15); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
