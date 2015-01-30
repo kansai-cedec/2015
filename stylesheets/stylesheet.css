@@ -29,14 +29,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-h3 {
-  margin: 0;
-  padding-top: 1em;
-  border: 0;
-  font: inherit;
-  vertical-align: baseline;
-}
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -59,12 +51,34 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
+  background: #ffffff;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
+
+/* body #menuarea */
+body #menuarea { width: 100%; background: #231816; padding: 0em; text-align: center; }
+body #menuarea .menu { display: inline-block; border: 1px solid gray; border-radius: 0.5em; padding: 1em; font-size: 0.75em; }
+body #menuarea .menu li { display: inline-block; margin: 0 1.5em; }
+body #menuarea .menu a { color: rgba(255,255,255,0.75); transition: all .25s ease-in-out; }
+body #menuarea .menu a:hover { color: rgba(255,255,255,1); }
+
+/* body.kcedec2015 #pagetitlearea */
+body #pagetitlearea { background-color: #231816; text-align: center; position: relative; }
+h2.pagetitle {
+	display: inline-block; width: 330px; height: 42px; background-color: white; 
+	color: rgb(72,77,85); font-size: 13px; letter-spacing: 3px; line-height: 42px; text-align: center;
+	margin: auto; padding-top: 6px;
+	}
+
+body table.outline_table { width: 840px; font-size: 0.85em; box-sizing: border-box; }
+body table.outline_table th { width: 100px; border: 1px solid rgb(60,60,60); padding: 0.5em; }
+body table.outline_table td { width: 180px; border: 1px solid rgb(60,60,60); text-align: center; vertical-align: middle;padding: 0.5em; }
+body table.outline_table tbody th { background-color: rgb(180,180,180); text-align: center; font-weight: normal; vertical-align: middle; }
+body table.outline_table thead th { background-color: rgb(100,100,100); text-align: center; font-weight: normal; vertical-align: top; }
+
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
@@ -79,26 +93,24 @@ h1 {
   font-weight: 700;
 }
 
-h2 {
-  padding-bottom: 10px;
-  font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
+h2.normalhead {
+  font-size: 1.5em; border-bottom: 2px solid rgb(92,33,99); border-left: 1.5em solid rgb(92,33,99); margin-bottom: 1em; padding: 0 0 0 8px;
 }
 
-h3 {
-  font-size: 24px;
+h3.normalhead {
+   font-size: 1em; border-bottom: 2px solid rgb(92,33,99); border-left: 1em solid rgb(92,33,99); margin-bottom: 0.5em; padding: 0 0 0 8px;
 }
 
-h4 {
-  font-size: 21px;
+h4.normalhead {
+  font-size: 0.9em; border-bottom: 1px solid rgb(92,33,99); border-left: 0.5em solid rgb(92,33,99); margin-bottom: 0.5em; padding: 0 0 0 8px; 
 }
 
-h5 {
-  font-size: 18px;
+h5.normalhead {
+  font-size: 0.9em; border-bottom: 1px solid rgb(92,33,99); border-left: 0.5em solid rgb(92,33,99); margin-bottom: 0.5em; padding: 0 0 0 8px; 
 }
 
-h6 {
-  font-size: 16px;
+h6.normalhead {
+  font-size: 0.7em; border-bottom: 1px solid rgb(92,33,99); border-left: 0.5em solid rgb(92,33,99); margin-bottom: 0.5em; padding: 0 0 0 8px; 
 }
 
 p {
@@ -291,6 +303,7 @@ div.session .category .BP  { display: inline-block; background-color: rgb(10,191
 div.session .category .AC  { display: inline-block; background-color: rgb(138,69,150); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
 div.session .category .KN  { display: inline-block; background-color: rgb(223,2,2); border-radius: 4px; color: white; font-size: 0.8em; line-height: 1em; margin-bottom: 1em; padding: 0.5em; }
 
+
 /* sponsors */
 .list-inline {
   padding-left: 0;
@@ -332,6 +345,16 @@ ul.session-sponsors li:first-child {
 ul.session-sponsors div.sponsor-logo {
   width: 300px;
   height: 370px;
+}
+div.booth-sponsors img{
+  width: 200px;
+  text-align: center;
+  vertical-align: top;
+  line-height: 100%;
+  margin-bottom: 30px;
+  margin-right: 12px;
+  padding: 0;
+  padding-left: 30px;
 }
 ul.booth-sponsors li {
   width: 250px;
@@ -383,6 +406,13 @@ ul.logo-sponsors li:first-child {
 ul.logo-sponsors div.sponsor-logo {
   width: 150px;
   height: 50px;
+}
+
+.nobordertable,
+.nobordertable td {
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -510,17 +540,29 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #ffffff;
+  border-top: 1px solid #111;
+}
+
+#main_content {
+  background: #ffffff;
+  padding-top: 40px;
+}
+
+#footer_wrap {
+  background: #ffffff;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
   float: left;
 }
 
 #main{
+  background: #ffffff;
   width: 80%;
   float: left;
 }
 #side {
+  background: #ffffff;
   width: 20%;
   float: right;
   text-indent: 10px;
@@ -534,7 +576,6 @@ Full-Width Styles
   clear: both;
   background: #212121;
 }
-
 
 
 
